@@ -14,5 +14,7 @@ model Contact {
     id  Int @default(autoincrement()) @id
     name    String
     age Int
-    detail String
+    description String
+    phoneNumber String
+    email   String
 }
