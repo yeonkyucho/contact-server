@@ -68,5 +68,7 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "prestart:prod": "rimraf dist && npm run build",
+  "web": "npm run start:prod"
 }
